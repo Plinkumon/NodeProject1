@@ -1,0 +1,122 @@
+[
+  {
+    "productId": 1,
+    "productName": "Veg Fried Rice",
+    "description": "Popular vegetarian rice dish",
+    "stock": true
+  },
+  {
+    "productId": 2,
+    "productName": "Chicken Manchuria",
+    "description": "Preferred by non vegetarians",
+    "stock": true
+  },
+  {
+    "productId": 3,
+    "productName": "Paneer Butter Masala",
+    "description": "Creamy paneer curry",
+    "stock": true
+  },
+  {
+    "productId": 4,
+    "productName": "Chicken Biryani",
+    "description": "Spicy and flavorful rice dish",
+    "stock": true
+  },
+  {
+    "productId": 5,
+    "productName": "Veg Noodles",
+    "description": "Stir fried noodles with vegetables",
+    "stock": true
+  },
+  {
+    "productId": 6,
+    "productName": "Gobi Manchurian",
+    "description": "Crispy cauliflower in spicy sauce",
+    "stock": false
+  },
+  {
+    "productId": 7,
+    "productName": "Mutton Curry",
+    "description": "Slow cooked spicy mutton curry",
+    "stock": true
+  },
+  {
+    "productId": 8,
+    "productName": "Egg Fried Rice",
+    "description": "Fried rice with scrambled eggs",
+    "stock": true
+  },
+  {
+    "productId": 9,
+    "productName": "Butter Naan",
+    "description": "Soft Indian flatbread with butter",
+    "stock": true
+  },
+  {
+    "productId": 10,
+    "productName": "Tandoori Chicken",
+    "description": "Roasted chicken with Indian spices",
+    "stock": false
+  },
+  {
+    "productId": 11,
+    "productName": "Masala Dosa",
+    "description": "Crispy dosa with potato filling",
+    "stock": true
+  },
+  {
+    "productId": 12,
+    "productName": "Idli Sambar",
+    "description": "Steamed rice cakes with lentil curry",
+    "stock": true
+  },
+  {
+    "productId": 13,
+    "productName": "Veg Burger",
+    "description": "Vegetable patty burger",
+    "stock": true
+  },
+  {
+    "productId": 14,
+    "productName": "Chicken Burger",
+    "description": "Burger with crispy chicken patty",
+    "stock": true
+  },
+  {
+    "productId": 15,
+    "productName": "French Fries",
+    "description": "Deep fried potato sticks",
+    "stock": true
+  },
+  {
+    "productId": 16,
+    "productName": "Cheese Pizza",
+    "description": "Pizza topped with mozzarella cheese",
+    "stock": true
+  },
+  {
+    "productId": 17,
+    "productName": "Veg Pizza",
+    "description": "Pizza topped with fresh vegetables",
+    "stock": false
+  },
+  {
+    "productId": 18,
+    "productName": "Chicken Shawarma",
+    "description": "Middle eastern chicken wrap",
+    "stock": true
+  },
+  {
+    "productId": 19,
+    "productName": "Chocolate Cake",
+    "description": "Rich and moist chocolate cake",
+    "stock": true
+  },
+  {
+    "productId": 20,
+    "productName": "Ice Cream",
+    "description": "Cold and sweet frozen dessert",
+    "stock": true
+  }
+]
