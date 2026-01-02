@@ -37,7 +37,7 @@
   },
   {
     "productId": 7,
-    "productName": "Mutton Curry",
+    "productName": "Mutton Curry with Tomato",
     "description": "Slow cooked spicy mutton curry",
     "stock": true
   },
@@ -117,6 +117,12 @@
     "productId": 20,
     "productName": "Ice Cream",
     "description": "Cold and sweet frozen dessert",
+    "stock": true
+  },
+  {
+    "productId": null,
+    "productName": "Prawn Masala",
+    "description": "Spicy prawn curry with rich gravy",
     "stock": true
   }
 ]

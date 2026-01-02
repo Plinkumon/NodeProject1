@@ -2,15 +2,21 @@ const fs = require('fs');
 const path = require('path');
 const dataPath = path.join(__dirname, 'data.json');
 
+
+exports.successMsg = (req, res)=>{
+
+  res.send('Server is running successfully');
+}
+
 // To add a new product
 
 exports.createData = (req, res) => {
     const data = JSON.parse(fs.readFileSync(dataPath));
     const maxId = data.length > 0
-  ? Math.max(...data.map(item => item.id))
+  ? Math.max(...data.map(item => item.productId))
   : 0;
      const newProduct = {
-  id: maxId + 1,
+  productId: maxId + 1,
   ...req.body
 };
     data.push(newProduct);
@@ -54,7 +60,9 @@ exports.updateProductById = (req,res)=>{
  if(productName){ product.productName = productName;}
  if(description){ product.description = description;}
 
-if(stock){ product.stock = stock;}
+if (stock !== undefined) product.stock = stock;
+
+  fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
 
 res.json(product);
 }
@@ -67,7 +75,7 @@ const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
       return  b.productId ===parseInt(req.params.id)
     })
 if (index === -1){
-    return res.status(400).send('Product not Found');
+    return res.status(404).send('Product not Found');
 }
 const deletedProduct= data.splice(index,1);
 fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));

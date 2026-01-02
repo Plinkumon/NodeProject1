@@ -3,9 +3,12 @@ const router = express.Router();
 const mgmtController = require('../Controllers/mgmtController')
 const validateData = require('../Middlewares/validateData')
 
+ router.get('/', mgmtController.successMsg)
+
 router.post('/addProduct',validateData, mgmtController.createData)
 
  router.get('/getProducts', mgmtController.getAllProducts)
+ 
 
 router.get('/:id', mgmtController.getProductById);
 
